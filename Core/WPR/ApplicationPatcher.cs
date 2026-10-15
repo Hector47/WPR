@@ -142,6 +142,12 @@ namespace WPR
                     NewNamespace = "WPR.WindowsCompability.Media"
                 }
                 },
+                { "System.Windows.Media.Imaging.WriteableBitmap", new TypePatchInfo()
+                {
+                    Reference = WindowsCompRef,
+                    NewNamespace = "WPR.WindowsCompability.Media.Imaging"
+                }
+                },
                 { "System.Windows.Thickness", new TypePatchInfo()
                 {
                     Reference = WindowsCompRef,
